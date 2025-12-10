@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: bot-app
-          image: mallik2001/bot:tag
+          image: naveen909/bot:latest
           imagePullPolicy: Always  # Force pull the latest image
           ports:
             - containerPort: 80
